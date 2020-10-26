@@ -64,7 +64,6 @@ root.keys(require('configuration.keys.global'))
 --  ========================================
 
 screen.connect_signal("request::wallpaper", function(s)
-
 	-- If wallpaper is a function, call it with the screen
 	if beautiful.wallpaper then
 		if type(beautiful.wallpaper) == "string" then

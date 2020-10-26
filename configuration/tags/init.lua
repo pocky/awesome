@@ -117,7 +117,6 @@ screen.connect_signal("request::desktop_decoration", function(s)
 	end
 end)
 
-
 tag.connect_signal(
 	'property::layout',
 	function(t)

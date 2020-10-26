@@ -52,7 +52,7 @@ return {
 		'redshift',
 		'brave',
 		'slack',
-		'dicord',
+		'discord',
 		'mailspring',
 		'xidlehook --not-when-fullscreen --not-when-audio --timer 600 '..
 		' "awesome-client \'_G.show_lockscreen()\'" ""'  											-- Auto lock timer
